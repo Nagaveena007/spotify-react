@@ -11,7 +11,13 @@
   justify-content: space-between;
   align-items: center;
 }
+@import url("http://fonts.cdnfonts.com/css/gotham");
 
+body {
+  background: rgb(46, 44, 44);
+  background: linear-gradient(0deg, rgba(46, 44, 44, 1) 1%, rgb(54, 5, 19) 87%);
+  color: #ececec;
+}
 img.logo {
   width: 80%;
   height: auto;

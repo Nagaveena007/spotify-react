@@ -1,14 +1,24 @@
+@import url("http://fonts.cdnfonts.com/css/gotham");
+
+body {
+  background: rgb(46, 44, 44);
+  background: linear-gradient(0deg, rgba(46, 44, 44, 1) 1%, rgb(54, 5, 19) 87%);
+  color: #ececec;
+}
 .home__wrap {
-  width: calc(100vw - 200px);
-  height: calc(100vh - 100px);
+  width: calc(100vw - 200px -200px);
+  height: calc(100vh - 100px -100px);
   position: absolute;
-  left: 200px;
+  left: 214px;
+  overflow-x: hidden;
   color: white;
+  display: flex;
+  flex-direction: column;
+  background: rgb(46, 44, 44);
+  background: linear-gradient(0deg, rgba(46, 44, 44, 1) 1%, rgb(54, 5, 19) 87%);
 }
 .home__line {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
+  width: 90%;
 
-  justify-content: space-between;
+  padding: 30px;
 }

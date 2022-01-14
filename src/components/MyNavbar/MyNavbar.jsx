@@ -1,9 +1,10 @@
 import { Navbar, Nav } from "react-bootstrap";
+import "./MyNavbar.css";
 import "../FooterPart/FooterPart.css";
 const MyNavbar = () => {
   return (
     <>
-      <div id="wrapper" className="d-flex">
+      <div id="wrapper" className="sidebar__wrap d-flex">
         <div id="navbar" className="w-15">
           <div className="menu-nav">
             <div className="links1-nav">
