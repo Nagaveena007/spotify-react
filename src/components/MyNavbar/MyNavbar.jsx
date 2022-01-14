@@ -8,12 +8,7 @@ const MyNavbar = () => {
           <div className="menu-nav">
             <div className="links1-nav">
               <div id="logo">
-                <img
-                  src="assets/spotify.png"
-                  width="150px"
-                  height="60px"
-                  alt="..."
-                />
+                <img src="spotify.png" width="150px" height="60px" alt="..." />
               </div>
             </div>
             <div className="links-nav">
@@ -159,7 +154,7 @@ const MyNavbar = () => {
           </div>
         </div>
 
-        <div id="content" className="w-85 h-100">
+        {/*  <div id="content" className="w-85 h-100">
           <div className="h-100 overflow-auto">
             <nav
               id="horizontal-nav"
@@ -213,7 +208,7 @@ const MyNavbar = () => {
               </div>
             </nav>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );
